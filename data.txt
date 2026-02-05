@@ -1,0 +1,10 @@
+name = Pikmin
+description = Test
+
+maker = Maritosu
+version = 1.0.0
+engine_version = 1.0.0
+tags = Engine
+dependencies = 
+conflicts = 
+notes = This pack contains assets, music, sounds, copyrighted by Nintendo, do not sell or try to distribute this pack elsewhere.

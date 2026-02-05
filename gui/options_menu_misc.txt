@@ -1,0 +1,95 @@
+name=Options menu -- misc.
+description=GUI for the misc. page of the options menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	back{
+		center=9.2500 92.5000
+		size=16.5000 7.9600
+		description=Back button.
+	}
+	back_input{
+		center=2.5000 95.0000
+		size=4.0000 4.0000
+		description=Icon of the input bound to the back button.
+	}
+	pikmin_bump{
+		center=50.0000 23.7500
+		size=63.0000 7.5000
+		description=Idle Pikmin leader bump distance picker.
+	}
+	dismiss_all{
+		center=50.0000 74.5000
+		size=63.0000 7.5000
+		description=Dismissing dismisses all Pikmin checkbox.
+	}
+	leader_cursor_cam_weight{
+		center=50.0000 32.0000
+		size=63.0000 7.5000
+		description=Leader cursor camera weight picker.
+	}
+	show_leader_cursor_counter{
+		center=50.0000 49.0000
+		size=63.0000 7.5000
+		description=Show standby Pikmin counter on leader cursor checkbox.
+	}
+	show_hud_input_icons{
+		center=50.0000 57.5000
+		size=63.0000 7.5000
+		description=Show control input bind icons on HUD checkbox.
+	}
+	leaving_confirmation{
+		center=50.0000 40.5000
+		size=63.0000 7.5000
+		description=Leaving confirmation mode picker.
+	}
+	maker_tools_in_play{
+		center=50.0000 66.0000
+		size=63.0000 7.5000
+		description=Allow maker tools in normal gameplay checkbox.
+	}
+	tooltip{
+		center=50.0000 82.5000
+		size=65.0794 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+custom_items{
+	gui_bg{
+		center=50.0500 50.0000
+		size=70.1000 75.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	gui_bg_binds{
+		center=0.0000 0.0000
+		size=0.0000 0.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	header{
+		center=52.5000 12.5000
+		size=35.0183 10.4994
+		description=Menu header.
+		type=text
+		color=255 255 255
+		text=Miscellaneous
+		font=area_name
+		text_alignment=1
+	}
+	text{
+		center=31.0000 17.5000
+		size=17.5192 6.8000
+		description
+		type=text
+		color=255 255 255
+		text=Game
+		font=area_name
+		text_alignment=0
+	}
+}

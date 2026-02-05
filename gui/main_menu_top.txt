@@ -1,0 +1,140 @@
+name=Main menu
+description=GUI for the main menu's top-level menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	play{
+		center=50.0000 55.0000
+		size=39.8432 7.3520
+		description=Play button.
+	}
+	make{
+		center=50.0000 71.0000
+		size=39.8430 7.3515
+		description=Make button.
+	}
+	help{
+		center=40.0000 79.0000
+		size=20.0000 6.5000
+		description=Help button.
+	}
+	options{
+		center=50.0000 63.0000
+		size=39.8426 7.3515
+		description=Options button.
+	}
+	stats{
+		center=60.1562 79.0000
+		size=19.6875 6.5000
+		description=Statistics button.
+	}
+	discord{
+		center=3.5000 91.5625
+		size=8.0000 8.1250
+		description=Discord server invite button.
+	}
+	github{
+		center=9.0000 91.5625
+		size=8.0000 8.1250
+		description=GitHub page button.
+	}
+	exit{
+		center=91.2499 6.2500
+		size=12.4998 7.5000
+		description=Exit button.
+	}
+	exit_input{
+		center=85.0000 10.0000
+		size=11.2500 11.2500
+		description=Icon of the input bound to the back button.
+	}
+	tooltip{
+		center=50.0000 96.0000
+		size=96.0000 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+logo{
+	min_window_limit=25 25
+	max_window_limit=76 50
+	pikmin_max_speed=99
+	pikmin_min_speed=99
+	pikmin_speed_smoothness=1
+	pikmin_sway_amount=3
+	pikmin_sway_max_speed=5.5
+	pikmin_sway_min_speed=2.5
+	pikmin_size=3.5 3.5
+	pikmin_types{
+		1=pikmin/white_flower_icon
+		2=pikmin/pink_flower_icon
+		3=pikmin/purple_flower_icon
+		4=pikmin/yellow_flower_icon
+	}
+	map{
+		11111.....11...11....11..111.............11..11...11111.........11
+		111111....11...11...11...11111.........1111..11...111.11........11
+		11...11...11...11..11....11.11.......11..11..11...11..11........11
+		11...11...11...11.11.....11..11.....11...11..11...11...11.......11
+		111111....11...1111......11...11...11....11..11...11.....11.....11
+		11111.....11...1111......11....11.11.....11..11...11.......11...11
+		11........11...11.11.....11.....1111.....11..11...11........11..11
+		11........11...11..11....11......111.....11..11...11.........11.11
+		11........11...11...11...11..............11..11...11..........1111
+		11........11...11....11..11..............11..11...11...........111
+	}
+}
+icons_to_the_left{
+	play=true
+	make=true
+	help=true
+	options=true
+	statistics=true
+	quit=true
+}
+custom_items{
+	gui_bg{
+		center=50.0000 67.5000
+		size=44.1000 40.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	discord_bg{
+		center=3.6000 91.4295
+		size=7.8000 7.8590
+		description=Background for the Discord server invite button, so that the icon can be read better.
+		type=filled_square
+		color=128 128 128 128
+		draw_before_hardcoded=true
+		rectangle_rounding=0.1500
+	}
+	github_bg{
+		center=9.0000 91.4750
+		size=7.8000 7.9500
+		description=Background for the GitHub page button, so that the icon can be read better.
+		type=filled_square
+		color=192 192 192 128
+		draw_before_hardcoded=true
+		rectangle_rounding=0.1500
+	}
+	copyright_text{
+		center=50.0000 91.0000
+		size=30.0000 5.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/text_copyright
+	}
+	text_title{
+		center=0.0000 0.0000
+		size=0.0000 0.0000
+		description
+		type=text
+		color=255 255 255
+		text=Title Screen
+		font=area_name
+		text_alignment=1
+	}
+}

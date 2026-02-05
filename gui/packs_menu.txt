@@ -1,0 +1,99 @@
+name=Pack management menu
+description=GUI for the pack management menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	back{
+		center=9.2500 92.5000
+		size=16.5000 7.9600
+		description=Back button.
+	}
+	back_input{
+		center=2.5000 95.0000
+		size=4.0000 4.0000
+		description=Icon of the input bound to the back button.
+	}
+	list{
+		center=27.7500 47.5000
+		size=49.5000 75.0000
+		description=List of packs.
+	}
+	list_scroll{
+		center=50.7000 47.5000
+		size=2.0000 72.9000
+		description=Scrollbar for the list of packs.
+	}
+	info_box{
+		center=76.2500 47.5000
+		size=45.0000 75.0000
+		description=Box surrounding the information about the focused pack.
+	}
+	pack_name{
+		center=81.0000 15.0000
+		size=29.7500 7.5200
+		description=Name of the focused pack.
+	}
+	pack_thumbnail{
+		center=60.0000 20.0000
+		size=16.0000 18.0000
+		description=Thumbnail image of the focused pack.
+	}
+	pack_description{
+		center=76.1250 59.1250
+		size=42.7500 41.7500
+		description=Description of the focused pack.
+	}
+	pack_tags{
+		center=81.0000 19.0000
+		size=29.9000 6.0000
+		description=Tags of the focused pack.
+	}
+	pack_maker{
+		center=81.2000 23.0000
+		size=29.9000 6.0000
+		description=Name or nickname of the focused pack's maker.
+	}
+	pack_version{
+		center=63.3000 27.0000
+		size=29.9900 6.0000
+		description=Version of the focused pack.
+	}
+	restart_warning{
+		center=50.0000 90.0000
+		size=57.4951 5.0000
+		description=Warning notifying the player they might need to restart to apply pack changes.
+	}
+	open_folder{
+		center=90.0000 92.5000
+		size=16.5000 7.9600
+		description=Link to open the pack folder.
+	}
+	tooltip{
+		center=50.0000 96.0000
+		size=96.0000 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+custom_items{
+	header{
+		center=20.5000 7.0000
+		size=17.6661 10.4994
+		description=Menu header.
+		type=text
+		color=255 255 255
+		text=Packs
+		font=area_name
+		text_alignment=0
+	}
+	text_description{
+		center=73.5000 35.0000
+		size=18.7500 10.0000
+		description
+		type=text
+		color=254 255 252
+		text=Description
+		font=area_name
+		text_alignment=0
+	}
+}

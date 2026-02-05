@@ -1,0 +1,105 @@
+name=Options menu -- controls
+description=GUI for the controls page of the options menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	back{
+		center=9.2500 92.5000
+		size=16.5000 7.9600
+		description=Back button.
+	}
+	back_input{
+		center=2.5000 95.0000
+		size=4.0000 4.0000
+		description=Icon of the input bound to the back button.
+	}
+	normal_binds{
+		center=50.0000 25.0000
+		size=60.0487 10.0000
+		description=Normal control binds menu button.
+	}
+	special_binds{
+		center=50.0000 34.0000
+		size=50.0000 6.0000
+		description=Special control binds menu button.
+	}
+	shortcuts{
+		center=50.0000 41.0000
+		size=50.0300 6.0000
+		description=Inventory item shortcuts menu button.
+	}
+	leader_cursor_mouse{
+		center=50.0000 52.5000
+		size=65.5810 8.0000
+		description=Checkbox for whether the leader cursor is controlled with the mouse.
+	}
+	leader_cursor_speed{
+		center=50.0000 61.5000
+		size=65.5810 8.0000
+		description=Leader cursor speed picker.
+	}
+	auto_throw{
+		center=50.0000 70.5000
+		size=65.5810 8.0000
+		description=Auto-throw mode picker.
+	}
+	fast_inventory{
+		center=50.0000 79.5000
+		size=65.5810 8.0000
+		description=Fast inventory mode checkbox.
+	}
+	tooltip{
+		center=50.0000 96.0000
+		size=96.0000 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+custom_items{
+	gui_bg{
+		center=50.0500 50.0000
+		size=70.1000 75.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	gui_bg_binds{
+		center=0.0000 0.0000
+		size=0.0000 0.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	header{
+		center=50.0000 12.5000
+		size=70.0000 10.4994
+		description=Menu header.
+		type=text
+		color=255 255 255
+		text=Controls
+		font=area_name
+		text_alignment=1
+	}
+	text_binds{
+		center=35.0000 17.0000
+		size=17.5192 6.8000
+		description
+		type=text
+		color=255 255 255
+		text=Keybinds
+		font=area_name
+		text_alignment=0
+	}
+	text_player{
+		center=26.5000 46.1000
+		size=9.9980 6.8000
+		description
+		type=text
+		color=255 255 255
+		text=Player
+		font=area_name
+		text_alignment=0
+	}
+}

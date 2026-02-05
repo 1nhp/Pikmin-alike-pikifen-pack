@@ -1,0 +1,79 @@
+name=Options menu -- top
+description=GUI for the top page of the options menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	back{
+		center=9.2500 92.5000
+		size=16.5000 7.9600
+		description=Back button.
+	}
+	back_input{
+		center=2.5000 95.0000
+		size=4.0000 4.0000
+		description=Icon of the input bound to the back button.
+	}
+	controls{
+		center=50.0000 25.0000
+		size=65.0000 10.0000
+		description=Controls page button.
+	}
+	graphics{
+		center=50.0000 36.0000
+		size=65.0000 10.0000
+		description=Graphics page button.
+	}
+	audio{
+		center=50.0000 47.0000
+		size=65.0000 10.0000
+		description=Audio page button.
+	}
+	packs{
+		center=50.0000 58.0000
+		size=65.0000 10.0000
+		description=Pack management menu button.
+	}
+	misc{
+		center=50.0000 69.0000
+		size=65.0000 10.0000
+		description=Misc. page button.
+	}
+	advanced{
+		center=50.0000 80.0000
+		size=65.0000 10.0000
+		description=Advanced options information bullet point.
+	}
+	tooltip{
+		center=52.5000 96.0000
+		size=65.0000 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+icons_to_the_left{
+	controls=true
+	graphics=true
+	audio=true
+	packs=true
+	misc=true
+}
+custom_items{
+	gui_bg{
+		center=50.0500 50.0000
+		size=70.1000 75.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	header{
+		center=50.0000 12.5000
+		size=70.0000 10.4994
+		description=Menu header.
+		type=text
+		color=255 255 255
+		text=Options
+		font=area_name
+		text_alignment=1
+	}
+}

@@ -1,0 +1,11 @@
+name = Impact Site
+description = Pikmin 1's original theme
+
+tags = Title; Area;
+maker = Hajime Wakai
+version = 1.0.0
+engine_version = 1.0.0
+notes = This is an original Pikmin song that is copyrighted by Nintendo, do not sell this
+loop_start = 14
+
+main_track = areas/impact_site

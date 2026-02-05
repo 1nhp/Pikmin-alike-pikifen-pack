@@ -1,0 +1,73 @@
+name=Main menu -- make
+description=GUI for the main menu's "make" sub-menu.
+maker=Espyo
+version=1.0.0
+engine_version=1.0.0
+hardcoded_items{
+	animation_editor{
+		center=50.0000 63.5000
+		size=39.8432 7.3520
+		description=Animation editor button.
+	}
+	area_editor{
+		center=50.0000 55.0000
+		size=39.8432 7.3520
+		description=Area editor button.
+	}
+	gui_editor{
+		center=50.0000 80.5000
+		size=39.8432 7.3520
+		description=GUI editor button.
+	}
+	particle_editor{
+		center=50.0000 72.0000
+		size=39.8432 7.3520
+		description=Particle editor button.
+	}
+	back{
+		center=9.0000 91.0000
+		size=14.0000 6.0000
+		description=Return to the main menu button.
+	}
+	back_input{
+		center=3.0000 93.0000
+		size=4.0000 4.0000
+		description=Icon of the input bound to the back button.
+	}
+	more{
+		center=91.0000 91.0000
+		size=14.0000 6.0000
+		description=Link to the manual explaining how to edit more things.
+	}
+	tooltip{
+		center=50.0000 96.0000
+		size=96.0000 4.0000
+		description=Tooltip of the focused menu item.
+	}
+}
+icons_to_the_left{
+	animation_editor=true
+	area_editor=false
+	particle_editor=true
+	gui_editor=false
+}
+custom_items{
+	gui_bg{
+		center=50.0000 67.5000
+		size=44.1000 40.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	text_title{
+		center=50.0000 47.1000
+		size=40.1367 6.2500
+		description
+		type=text
+		color=255 255 255
+		text=Select content type
+		font=area_name
+		text_alignment=1
+	}
+}
