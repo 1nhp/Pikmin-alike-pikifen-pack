@@ -14,7 +14,7 @@ This Pikifen pack aims to try change the look, and feel of the game to Pikmin as
 
 *Disclaimer* this pack contains assets copyrighted by Nintenddo this pack is non-profit
 
-Installation
+# Installation
 1. To install this pack you will have an installation of Pikifen, if you do not have the game download it from the [official repository](https://github.com/Espyo/Pikifen/release)
 2. After installing the game go to Options > Packs, then press the open Packs folder
 3. Download the pack from [releases](https://github.com/1nhp/Pikmin-alike-pikifen-pack/releases/) tab
