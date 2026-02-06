@@ -16,6 +16,10 @@ vertexes{
 	v=-159.3670 248.1043
 	v=-320.0000 225.7160
 	v=-320.0000 258.6505
+	v=-232.0000 96.0000
+	v=-288.0000 48.0000
+	v=-216.0000 -48.0000
+	v=-192.0000 56.0000
 }
 edges{
 	e{
@@ -114,6 +118,22 @@ edges{
 		s=-1 1
 		v=16 15
 	}
+	e{
+		s=0 2
+		v=20 17
+	}
+	e{
+		s=0 2
+		v=17 18
+	}
+	e{
+		s=0 2
+		v=18 19
+	}
+	e{
+		s=0 2
+		v=19 20
+	}
 }
 sectors{
 	s{
@@ -122,6 +142,13 @@ sectors{
 	}
 	s{
 		z=-1.0000
+		texture=textures/grass_dark
+	}
+	s{
+		z=0.0000
+		fade=true
+		hazard=water
+		hazards_floor=true
 		texture=textures/grass_dark
 	}
 }
@@ -167,6 +194,394 @@ mobs{
 	enemy{
 		type=dwarf_red_bulborb
 		p=248.0000 -248.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -8.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -8.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -8.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 0.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 0.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 0.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 20.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 20.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 20.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 12.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 12.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 12.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 6.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -14.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -3.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 9.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 -11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-88.0000 17.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-96.0000 -11.0000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 9.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 7.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 15.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -12.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -9.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 9.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 9.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -10.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 1.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-64.0000 -4.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 -9.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-72.0000 18.5000
+	}
+	pikmin{
+		type=red_pikmin
+		p=-80.0000 -9.5000
+	}
+	enemy{
+		type=red_bulborb
+		p=232.0000 -192.0000
 	}
 }
 path_stops

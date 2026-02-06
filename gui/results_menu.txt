@@ -15,23 +15,23 @@ hardcoded_items{
 		description=Area subtitle or mission goal.
 	}
 	goal_stamp{
-		center=50.0000 5.0000
+		center=47.5000 5.0000
 		size=8.5000 7.5784
 		description=A stamp indicating whether or not the player reached the mission goal.
 	}
 	end_reason{
-		center=62.5000 5.1250
-		size=15.0000 6.0000
+		center=57.5000 5.0000
+		size=12.5006 6.0000
 		description=Reason as to why the mission ended, if any.
 	}
 	medal{
-		center=75.0000 5.0000
+		center=72.5000 5.0000
 		size=8.5000 7.5049
 		description=Mission medal that the player got, if any.
 	}
 	medal_reason{
-		center=89.0000 5.0000
-		size=18.0000 6.0000
+		center=85.0000 5.0000
+		size=17.5000 6.0000
 		description=Reason for the medal. If applicable, includes the final score.
 	}
 	conclusion{
@@ -45,8 +45,8 @@ hardcoded_items{
 		description=Box with several statistics.
 	}
 	stats_scroll{
-		center=93.0000 63.0000
-		size=2.0000 38.0000
+		center=96.0000 46.0000
+		size=1.3000 69.9000
 		description=Scrollbar for the statistics box.
 	}
 	retry{
@@ -105,8 +105,8 @@ custom_items{
 		text_alignment=1
 	}
 	stats_bg{
-		center=52.5012 56.2500
-		size=109.9975 66.2498
+		center=49.9994 46.5625
+		size=114.9987 95.5867
 		description=Background for the statistics list.
 		type=bitmap
 		color=255 255 255
@@ -131,5 +131,23 @@ custom_items{
 		text=Final analysis
 		font=area_name
 		text_alignment=1
+	}
+	gui_bg{
+		center=56.0250 5.0000
+		size=22.9500 9.0000
+		description
+		type=9_slice
+		color=255 255 255
+		draw_before_hardcoded=true
+		bitmap=gui/bubble_box
+	}
+	gui_bg2{
+		center=83.7500 5.0000
+		size=27.5000 9.0000
+		description
+		type=9_slice
+		color=255 255 255
+		draw_before_hardcoded=true
+		bitmap=gui/bubble_box
 	}
 }

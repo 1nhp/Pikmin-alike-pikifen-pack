@@ -109,7 +109,7 @@ songs {
     boss_victory = others/a_boss_like_enemy_victory
     editors = others/creator
     menus = others/title
-    results = others/makes_you_think
+    results = others/results
 }
 
 animations {
