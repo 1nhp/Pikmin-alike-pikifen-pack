@@ -58,6 +58,16 @@ graphics {
     warning = gui/warning
     wave_ring = effects/wave_ring
     copyright_text = gui/copyright_text
+    radar_olimar = gui/radar_olimar_icon
+    bubble_box_gradient = gui/bubble_box_gradient
+    c_stick_icon = gui/c_stick_icon
+    stick_icon = gui/stick_icon
+    a_button_icon = gui/a_button_icon
+    arrow_icon_left = gui/arrow_icon_left
+    arrow_icon_right = gui/arrow_icon_right
+    arrow_icon_up = gui/arrow_icon_up
+    arrow_icon_down = gui/arrow_icon_down
+    onion_stick_icon = gui/onion_stick_icon
 }
 
 fonts {
@@ -67,7 +77,7 @@ fonts {
     editor_monospace = fonts/editor_monospace
     editor_standard = fonts/editor_standard
     leader_cursor_counter = fonts/leader_cursor_counter
-    slim = fonts/slim
+    slim = fonts/radar
     standard = fonts/standard
     value = fonts/value
 }

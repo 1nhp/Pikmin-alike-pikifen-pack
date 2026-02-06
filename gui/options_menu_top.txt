@@ -45,8 +45,8 @@ hardcoded_items{
 		description=Advanced options information bullet point.
 	}
 	tooltip{
-		center=52.5000 96.0000
-		size=65.0000 4.0000
+		center=50.0000 92.5000
+		size=60.0000 4.0000
 		description=Tooltip of the focused menu item.
 	}
 }

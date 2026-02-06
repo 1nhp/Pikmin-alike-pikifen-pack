@@ -3,11 +3,24 @@ vertexes{
 	v=320.0000 -320.0000
 	v=320.0000 320.0000
 	v=-320.0000 320.0000
+	v=-180.8097 273.1077
+	v=-243.4160 309.2822
+	v=-276.1742 305.8387
+	v=-303.5799 287.5661
+	v=-306.8033 179.1453
+	v=-280.0000 160.0000
+	v=-215.3696 131.5039
+	v=-182.6330 159.8492
+	v=-160.3965 184.1494
+	v=-152.0000 216.0000
+	v=-159.3670 248.1043
+	v=-320.0000 225.7160
+	v=-320.0000 258.6505
 }
 edges{
 	e{
 		s=-1 0
-		v=3 0
+		v=3 16
 	}
 	e{
 		s=-1 0
@@ -21,10 +34,94 @@ edges{
 		s=-1 0
 		v=2 3
 	}
+	e{
+		s=0 1
+		v=14 4
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=4 5
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=5 6
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=6 7
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=7 16
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=15 8
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=8 9
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=9 10
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=10 11
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=11 12
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=12 13
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=0 1
+		v=13 14
+		shadow_length=40.0000
+		smoothing_length=37.0000
+	}
+	e{
+		s=-1 0
+		v=15 0
+	}
+	e{
+		s=-1 1
+		v=16 15
+	}
 }
 sectors{
 	s{
 		z=0.0000
+		texture=textures/grass_dark
+	}
+	s{
+		z=-1.0000
 		texture=textures/grass_dark
 	}
 }
@@ -32,6 +129,44 @@ mobs{
 	leader{
 		type=olimar
 		p=0.0000 0.0000
+	}
+	leader{
+		type=louie
+		p=-32.0000 0.0000
+	}
+	leader{
+		type=charlie
+		p=-32.0000 -32.0000
+	}
+	leader{
+		type=president
+		p=-32.0000 -64.0000
+	}
+	leader{
+		type=rookie
+		p=32.0000 0.0000
+	}
+	leader{
+		type=brittany
+		p=32.0000 -32.0000
+	}
+	leader{
+		type=alph
+		p=0.0000 -32.0000
+	}
+	onion{
+		type=red_onion
+		p=-240.0000 232.0000
+		vars=pikmin_inside=1
+	}
+	custom{
+		type=pellet_posy_1
+		p=-272.0000 112.0000
+		vars=bloom_time=0.0000;red=true
+	}
+	enemy{
+		type=dwarf_red_bulborb
+		p=248.0000 -248.0000
 	}
 }
 path_stops

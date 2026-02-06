@@ -5,68 +5,68 @@ version=1.0.0
 engine_version=1.0.0
 hardcoded_items{
 	back{
-		center=12.0000 5.0000
-		size=20.0000 6.0000
-		description=Button to return to the pause menu.
+		center=9.2500 92.5000
+		size=16.5000 7.9600
+		description=Return to the main menu button.
 	}
 	back_input{
-		center=3.0000 7.0000
+		center=2.5000 95.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the back button.
 	}
 	gameplay1{
-		center=22.0000 15.0000
-		size=36.0000 6.0000
+		center=5.0000 22.5000
+		size=8.9072 6.0000
 		description=Gameplay basics category button.
 	}
 	gameplay2{
-		center=22.0000 23.0000
-		size=36.0000 6.0000
+		center=5.0000 29.0000
+		size=9.0000 6.0000
 		description=Advanced gameplay category button.
 	}
 	controls{
-		center=22.0000 31.0000
-		size=36.0000 6.0000
+		center=5.0000 35.5000
+		size=9.0000 6.0000
 		description=Controls category button.
 	}
 	pikmin{
-		center=22.0000 39.0000
-		size=36.0000 6.0000
+		center=5.0000 42.0000
+		size=9.0000 6.0000
 		description=Pikmin category button.
 	}
 	objects{
-		center=22.0000 47.0000
-		size=36.0000 6.0000
+		center=5.0000 48.5000
+		size=9.0000 6.0000
 		description=Objects category button.
 	}
 	manual{
-		center=22.0000 54.0000
-		size=28.0000 4.0000
+		center=5.0000 80.0000
+		size=9.0000 6.0000
 		description=Link to the manual.
 	}
 	category{
-		center=71.0000 5.0000
-		size=54.0000 6.0000
+		center=31.2500 12.5000
+		size=37.5000 6.0000
 		description=Name of the currently selected category.
 	}
 	list{
-		center=69.0000 39.0000
-		size=50.0000 54.0000
+		center=31.2500 51.2500
+		size=37.5000 72.5000
 		description=List of tidbits in the current category.
 	}
 	list_scroll{
-		center=96.0000 39.0000
-		size=2.0000 54.0000
+		center=48.5000 51.2500
+		size=1.2000 71.0000
 		description=Scrollbar for the list of tidbits.
 	}
 	image{
-		center=16.0000 83.0000
-		size=28.0000 30.0000
+		center=75.0000 45.0000
+		size=44.9805 45.0000
 		description=Image representing the current tidbit.
 	}
 	tooltip{
-		center=65.0000 83.0000
-		size=66.0000 30.0000
+		center=75.6250 75.0000
+		size=41.2500 25.0000
 		description=Tooltip of the selected tidbit or menu item.
 	}
 }
@@ -116,6 +116,7 @@ tidbits{
 		Mouse cursor;When playing with a mouse, the leader's cursor follows your own mouse cursor. But regardless of control scheme, the leader cursor's range is limited, so pay attention to where the leader is really aiming!;help/mouse_cursor
 		Releasing held Pikmin;To drop a held Pikmin without throwing it, keep \k throw \k held, and press \k whistle \k.;help/throwing_pikmin
 		Radar with a mouse;When playing with a mouse, click somewhere on the radar and drag to pan around. Use the mouse wheel to zoom in and out. Click on a single spot to start Go Here or to pick a leader.;help/radar
+		All Controls;Here are all the controls(this will change with custom binds);help/allcontrols
 	}
 	objects{
 		Pellet;Pellets are like food for Pikmin, making them good sources for more Pikmin. The number on them specifies their weight. Try matching the receiving Pikmin type with their color!;help/pellet
@@ -132,4 +133,47 @@ tidbits{
 		Bamboo gate;Bamboo gates have handles at the top, and can be lifted into the air by Winged Pikmin.;help/bamboo_gate
 	}
 }
-custom_items
+custom_items{
+	new_item{
+		center=50.0000 1.2500
+		size=105.0000 13.5000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/counter_bubble
+	}
+	new_item2{
+		center=50.0000 1.2500
+		size=105.0000 13.5000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	header{
+		center=15.0000 4.0000
+		size=12.9165 6.3749
+		description=Menu header.
+		type=text
+		color=255 255 255
+		text=Help
+		font=area_name
+		text_alignment=0
+	}
+	help_info_bg{
+		center=75.0000 51.2500
+		size=45.0000 72.5000
+		description
+		type=9_slice
+		color=125 125 125
+		bitmap=gui/frame_box
+	}
+	help_page{
+		center=3.0000 51.2500
+		size=14.0000 67.5000
+		description
+		type=9_slice
+		color=125 125 125
+		bitmap=gui/frame_box
+	}
+}

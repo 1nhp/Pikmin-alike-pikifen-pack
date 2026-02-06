@@ -5,73 +5,73 @@ version=1.0.0
 engine_version=1.0.0
 hardcoded_items{
 	left_page{
-		center=12.0000 5.0000
-		size=20.0000 6.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Button to go to whatever page is to the left.
 	}
 	left_page_input{
-		center=3.0000 7.0000
-		size=4.0000 4.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Icon of the player input that changes to the left page.
 	}
 	right_page{
-		center=88.0000 5.0000
-		size=20.0000 6.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Button to go to whatever page is to the right.
 	}
 	right_page_input{
-		center=97.0000 7.0000
-		size=4.0000 4.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Icon of the player input that changes to the right page.
 	}
 	area_name{
-		center=50.0000 20.0000
-		size=96.0000 8.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Area name.
 	}
 	area_subtitle{
-		center=50.0000 28.5000
-		size=88.0000 9.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Area subtitle or mission goal, if any.
 	}
 	continue{
-		center=13.0000 88.0000
-		size=22.0000 8.0000
+		center=50.0000 30.0000
+		size=38.0000 7.0000
 		description=Continue button.
 	}
 	continue_input{
-		center=3.0000 91.0000
+		center=32.5000 32.5000
 		size=4.0000 4.0000
 		description=Icon of the player input to unpause.
 	}
 	retry{
-		center=28.0000 44.0000
-		size=38.0000 12.0000
+		center=50.0000 45.0000
+		size=38.0000 7.0000
 		description=Restart exploration/retry mission button.
 	}
 	end{
-		center=72.0000 44.0000
-		size=38.0000 12.0000
+		center=50.0000 37.5000
+		size=38.0000 7.0000
 		description=End exploration/mission button.
 	}
 	help{
-		center=19.0000 65.0000
-		size=26.0000 10.0000
+		center=50.0000 60.0000
+		size=38.0000 7.0000
 		description=Help button.
 	}
 	options{
-		center=50.0000 65.0000
-		size=26.0000 10.0000
+		center=50.0000 52.5000
+		size=38.0000 7.0000
 		description=Options button.
 	}
 	stats{
-		center=81.0000 65.0000
-		size=26.0000 10.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Statistics button.
 	}
 	quit{
-		center=87.0000 88.0000
-		size=22.0000 8.0000
+		center=50.0000 67.5000
+		size=38.0000 7.0000
 		description=Quit button.
 	}
 	tooltip{
@@ -82,8 +82,8 @@ hardcoded_items{
 }
 custom_items{
 	header{
-		center=50.0000 5.0000
-		size=52.0000 6.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Menu header.
 		type=text
 		color=255 255 255 128
@@ -92,11 +92,29 @@ custom_items{
 		text_alignment=1
 	}
 	line{
-		center=50.0000 11.0000
-		size=96.0000 0.5000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Line separating the headers from the rest of the menu.
 		type=filled_rectangle
 		color=255 255 255 128
 		rectangle_rounding=0.2000
+	}
+	gui_bg{
+		center=50.0000 50.0000
+		size=44.9805 56.0937
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	text_pause{
+		center=50.0000 22.5000
+		size=35.0000 7.5000
+		description
+		type=text
+		color=255 255 255
+		text=Pause menu
+		font=area_name
+		text_alignment=1
 	}
 }

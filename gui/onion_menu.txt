@@ -5,69 +5,77 @@ version=1.0.0
 engine_version=1.0.0
 hardcoded_items{
 	cancel{
-		center=8.7500 16.2500
-		size=12.5000 12.5000
+		center=46.0000 83.0000
+		size=7.5000 7.5000
 		description=Cancel button.
 	}
 	cancel_input{
-		center=2.5000 22.5000
+		center=42.5000 86.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the back button.
 	}
 	ok{
-		center=8.7500 71.2500
-		size=12.5000 12.5000
+		center=54.0000 83.0000
+		size=7.5000 7.5000
 		description=Ok button.
 	}
 	ok_input{
-		center=2.5000 77.5000
+		center=56.0000 86.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the ok button.
 	}
 	field{
-		center=50.0000 87.0000
+		center=50.0000 94.0000
 		size=28.0000 4.0000
 		description=Amount of Pikmin currently on the field.
 	}
 	change_ten{
-		center=5.0000 37.0000
+		center=20.0000 21.0000
 		size=5.0000 8.0000
 		description=Button that toggles changing ten Pikmin at a time.
 	}
 	change_ten_input{
-		center=2.5000 41.0000
+		center=17.5000 25.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the "change ten" button.
 	}
 	select_all{
-		center=5.0000 50.0000
+		center=20.0000 31.0000
 		size=5.0000 8.0000
 		description=Button that toggles selecting all Pikmin types at once.
 	}
 	select_all_input{
-		center=2.5000 54.0000
+		center=17.5000 35.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the "select all" button.
 	}
 	list{
-		center=57.5000 43.7500
-		size=80.0000 67.5000
+		center=50.0000 45.9805
+		size=45.0000 61.9609
 		description=List with all the Pikmin type columns.
 	}
 	list_scroll{
-		center=57.5000 81.2500
-		size=80.0000 2.5000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Horizontal scrollbar for the list.
 	}
 	tooltip{
-		center=50.0000 95.0000
-		size=95.0000 8.0000
+		center=50.0000 75.0000
+		size=42.4948 2.5000
 		description=Tooltip of the focused menu item.
 	}
 }
 custom_items{
+	onion_bg{
+		center=50.0000 46.0251
+		size=45.0005 62.0502
+		description
+		type=9_slice
+		color=255 255 255 50
+		bitmap=gui/counter_bubble
+	}
 	field_bg{
-		center=50.0000 87.0000
+		center=50.0000 94.0000
 		size=30.0000 6.0000
 		description=Background for the field amount.
 		type=filled_rectangle
@@ -76,13 +84,73 @@ custom_items{
 		rectangle_rounding=0.3000
 	}
 	instructions{
-		center=50.0000 5.0000
-		size=90.0000 4.0000
+		center=50.0000 17.5000
+		size=37.0000 2.8000
 		description=Basic menu instructions.
 		type=text
-		color=188 230 230
-		text=Call or store Pikmin
-		font=standard
+		color=255 183 0
+		text=Call or store Pikmin?
+		font=slim
+		text_alignment=1
+	}
+	arrow_up{
+		center=50.0000 42.0500
+		size=10.0000 4.7000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/arrow_icon_up
+	}
+	arrow_down{
+		center=50.0000 50.0000
+		size=10.0000 4.7000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/arrow_icon_down
+	}
+	stick_icon{
+		center=57.5000 45.5000
+		size=6.0000 10.0000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/onion_stick_icon
+	}
+	sort_bg{
+		center=20.0000 27.5000
+		size=10.0000 25.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	nav_bg{
+		center=50.0000 83.8500
+		size=24.9999 11.8000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	text_sort{
+		center=20.0000 12.5000
+		size=10.0000 5.0000
+		description
+		type=text
+		color=255 255 255
+		text=Sort
+		font=area_name
+		text_alignment=1
+	}
+	text_onion{
+		center=50.0000 12.5000
+		size=20.0000 5.0000
+		description
+		type=text
+		color=255 255 255
+		text=Onion
+		font=area_name
 		text_alignment=1
 	}
 }

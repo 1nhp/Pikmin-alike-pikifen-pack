@@ -40,18 +40,18 @@ hardcoded_items{
 		description=GitHub page button.
 	}
 	exit{
-		center=91.2499 6.2500
-		size=12.4998 7.5000
+		center=90.6249 91.5620
+		size=16.2499 8.1250
 		description=Exit button.
 	}
 	exit_input{
-		center=85.0000 10.0000
+		center=83.9000 95.0000
 		size=11.2500 11.2500
 		description=Icon of the input bound to the back button.
 	}
 	tooltip{
-		center=50.0000 96.0000
-		size=96.0000 4.0000
+		center=47.5000 95.0000
+		size=65.0000 4.0000
 		description=Tooltip of the focused menu item.
 	}
 }
@@ -120,8 +120,8 @@ custom_items{
 		rectangle_rounding=0.1500
 	}
 	copyright_text{
-		center=50.0000 91.0000
-		size=30.0000 5.5000
+		center=50.0000 90.3750
+		size=30.0000 4.2500
 		description
 		type=bitmap
 		color=255 255 255

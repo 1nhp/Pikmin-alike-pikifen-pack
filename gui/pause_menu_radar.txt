@@ -5,78 +5,78 @@ version=1.0.0
 engine_version=1.0.0
 hardcoded_items{
 	left_page{
-		center=12.0000 5.0000
-		size=20.0000 6.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Button to go to whatever page is to the left.
 	}
 	left_page_input{
-		center=3.0000 7.0000
-		size=4.0000 4.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Icon of the player input that changes to the left page.
 	}
 	right_page{
-		center=88.0000 5.0000
-		size=20.0000 6.0000
+		center=97.5000 50.0000
+		size=2.5560 6.0000
 		description=Button to go to whatever page is to the right.
 	}
 	right_page_input{
-		center=97.0000 7.0000
-		size=4.0000 4.0000
+		center=97.0000 50.0000
+		size=6.0000 6.0000
 		description=Icon of the player input that changes to the right page.
 	}
 	continue{
-		center=10.0000 16.0000
-		size=16.0000 4.0000
+		center=10.0000 4.0000
+		size=18.0000 6.0000
 		description=Continue button.
 	}
 	continue_input{
-		center=3.0000 17.0000
+		center=2.5000 5.5000
 		size=4.0000 4.0000
 		description=Icon of the player input to unpause.
 	}
 	radar{
-		center=37.5000 56.2500
-		size=70.0000 72.5000
+		center=60.0000 57.8250
+		size=67.0000 70.6500
 		description=The actual radar itself.
 	}
 	group_pikmin_label{
-		center=86.2500 47.5000
-		size=22.5000 5.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Label for the group Pikmin counter.
 	}
 	group_pikmin_number{
-		center=86.2500 55.0000
-		size=22.5000 5.0000
+		center=19.2500 26.0000
+		size=11.5000 5.0000
 		description=Group Pikmin counter.
 	}
 	idle_pikmin_label{
-		center=86.2500 62.5000
-		size=22.5000 5.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Label for the idle Pikmin counter.
 	}
 	idle_pikmin_number{
-		center=86.2500 70.0000
-		size=22.5000 5.0000
+		center=19.2500 33.0000
+		size=11.5000 5.0000
 		description=Idle Pikmin counter.
 	}
 	field_pikmin_label{
-		center=86.2500 77.5000
-		size=22.5000 5.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Label for the field Pikmin counter.
 	}
 	field_pikmin_number{
-		center=86.2500 85.0000
-		size=22.5000 5.0000
+		center=19.2500 40.0000
+		size=11.5000 5.0000
 		description=Field Pikmin counter.
 	}
 	cursor_info{
-		center=86.2500 33.7500
+		center=81.5000 39.0000
 		size=22.5000 17.5000
 		description=Information about whatever the radar cursor is on.
 	}
 	instructions{
-		center=58.7500 16.0000
-		size=77.5000 4.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Some basic instructions on how to control the radar.
 	}
 	tooltip{
@@ -101,21 +101,220 @@ bitmaps{
 }
 custom_items{
 	header{
-		center=50.0000 5.0000
-		size=52.0000 6.0000
+		center=50.0000 7.0000
+		size=25.0000 7.0000
 		description=Menu header.
 		type=text
-		color=255 255 255 128
-		text=RADAR
+		color=255 255 255
+		text=Radar
 		font=area_name
 		text_alignment=1
 	}
 	line{
-		center=50.0000 11.0000
-		size=96.0000 0.5000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Line separating the headers from the rest of the menu.
 		type=filled_rectangle
 		color=255 255 255 128
 		rectangle_rounding=0.2000
+	}
+	group_bg{
+		center=20.0000 26.0000
+		size=10.0000 6.0000
+		description
+		type=9_slice
+		color=255 144 144
+		bitmap=gui/bubble_box
+	}
+	idle_bg{
+		center=20.0000 33.0000
+		size=10.0000 6.0000
+		description
+		type=9_slice
+		color=255 229 77
+		bitmap=gui/bubble_box
+	}
+	total_bg{
+		center=20.0000 40.0000
+		size=10.0000 6.0000
+		description
+		type=9_slice
+		color=51 92 255
+		bitmap=gui/bubble_box
+	}
+	text_group{
+		center=7.1000 26.0000
+		size=22.5000 5.0000
+		description
+		type=text
+		color=0 173 255 0
+		draw_before_hardcoded=true
+		text=GROUP
+		font=area_name
+		text_alignment=1
+	}
+	text_idle{
+		center=5.5000 33.0000
+		size=22.5000 5.0000
+		description
+		type=text
+		color=0 175 255 0
+		draw_before_hardcoded=true
+		text=IDLE
+		font=area_name
+		text_alignment=1
+	}
+	text_free{
+		center=6.0000 40.0000
+		size=22.5000 5.0000
+		description
+		type=text
+		color=0 173 255 0
+		draw_before_hardcoded=true
+		text=FREE
+		font=area_name
+		text_alignment=1
+	}
+	olimar{
+		center=6.0000 26.0000
+		size=10.0000 8.0000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/radar_olimar_icon
+	}
+	olimar_bubble{
+		center=12.6000 26.0000
+		size=1.0000 1.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=effects/bubble
+	}
+	olimar_bubble1{
+		center=11.1000 26.0000
+		size=1.0000 1.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=effects/bubble
+	}
+	olimar_bubble2{
+		center=14.1000 26.0000
+		size=1.0000 1.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=effects/bubble
+	}
+	bubble_gradient{
+		center=33.9500 15.7500
+		size=13.2000 3.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/bubble_box_gradient
+	}
+	bubble_gradient2{
+		center=48.2000 15.7500
+		size=13.2000 3.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/bubble_box_gradient
+	}
+	bubble_gradient3{
+		center=62.2000 15.7500
+		size=13.2000 3.5000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/bubble_box_gradient
+	}
+	instructions_zoom{
+		center=48.0000 17.5000
+		size=12.5000 7.0000
+		description
+		type=9_slice
+		color=123 225 255
+		bitmap=gui/bubble_box
+	}
+	instructions_position{
+		center=62.0000 17.5000
+		size=12.5000 7.0000
+		description
+		type=9_slice
+		color=123 225 255
+		bitmap=gui/bubble_box
+	}
+	text_instructions_move{
+		center=34.5000 17.5000
+		size=7.0000 3.0000
+		description
+		type=text
+		color=255 255 255
+		text=MOVE
+		font=slim
+		text_alignment=1
+	}
+	text_instructions_zoom{
+		center=49.0000 17.5000
+		size=7.0000 3.0000
+		description
+		type=text
+		color=255 255 255
+		text=ZOOM
+		font=slim
+		text_alignment=1
+	}
+	text_instructions_position{
+		center=63.3000 17.4902
+		size=8.0000 6.7200
+		description
+		type=text
+		color=255 255 255
+		text=Go to position
+		font=slim
+		text_alignment=1
+	}
+	icon_stick{
+		center=29.5000 17.5000
+		size=3.0000 5.0000
+		description
+		type=bitmap
+		color=229 229 229 200
+		bitmap=gui/stick_icon
+	}
+	icon_c_stick{
+		center=43.7000 17.5000
+		size=3.0000 5.0000
+		description
+		type=bitmap
+		color=244 255 0 182
+		bitmap=gui/c_stick_icon
+	}
+	icon_position{
+		center=57.5000 17.5000
+		size=3.0000 5.0000
+		description
+		type=bitmap
+		color=255 255 255 182
+		bitmap=gui/a_button_icon
+	}
+	instructions_move{
+		center=33.7500 17.5000
+		size=12.5000 7.0000
+		description
+		type=9_slice
+		color=123 225 255
+		bitmap=gui/bubble_box
+	}
+	arrow_right{
+		center=97.5000 50.0000
+		size=5.0000 13.0000
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=gui/arrow_icon_right
 	}
 }

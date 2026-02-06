@@ -30,13 +30,13 @@ hardcoded_items{
 		description=Box surrounding the information about the focused pack.
 	}
 	pack_name{
-		center=81.0000 15.0000
-		size=29.7500 7.5200
+		center=81.0000 14.4000
+		size=21.5000 6.2300
 		description=Name of the focused pack.
 	}
 	pack_thumbnail{
-		center=60.0000 20.0000
-		size=16.0000 18.0000
+		center=61.8500 20.0000
+		size=16.3000 17.0000
 		description=Thumbnail image of the focused pack.
 	}
 	pack_description{
@@ -45,23 +45,23 @@ hardcoded_items{
 		description=Description of the focused pack.
 	}
 	pack_tags{
-		center=81.0000 19.0000
-		size=29.9000 6.0000
+		center=78.7000 18.3250
+		size=17.0000 3.0000
 		description=Tags of the focused pack.
 	}
 	pack_maker{
-		center=81.2000 23.0000
-		size=29.9000 6.0000
+		center=79.0000 22.5000
+		size=17.0000 3.0000
 		description=Name or nickname of the focused pack's maker.
 	}
 	pack_version{
-		center=63.3000 27.0000
-		size=29.9900 6.0000
+		center=76.2109 80.0000
+		size=42.5781 6.0000
 		description=Version of the focused pack.
 	}
 	restart_warning{
-		center=50.0000 90.0000
-		size=57.4951 5.0000
+		center=50.0000 87.5000
+		size=59.9902 5.0000
 		description=Warning notifying the player they might need to restart to apply pack changes.
 	}
 	open_folder{
@@ -70,8 +70,8 @@ hardcoded_items{
 		description=Link to open the pack folder.
 	}
 	tooltip{
-		center=50.0000 96.0000
-		size=96.0000 4.0000
+		center=50.0000 92.5000
+		size=60.0000 4.0000
 		description=Tooltip of the focused menu item.
 	}
 }

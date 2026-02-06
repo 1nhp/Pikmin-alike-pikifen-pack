@@ -5,27 +5,27 @@ version=1.0.0
 engine_version=1.0.0
 hardcoded_items{
 	list{
-		center=50.0000 50.0000
-		size=32.0000 28.0000
+		center=40.0000 52.5000
+		size=35.0000 40.0000
 		description=List of items.
 	}
 	list_scroll{
-		center=50.0000 67.0000
-		size=32.0000 2.0000
+		center=0.0000 0.0000
+		size=0.0000 0.0000
 		description=Scrollbar for the list of items.
 	}
 	info{
-		center=57.0000 31.0000
-		size=18.0000 6.0000
+		center=70.0000 67.5000
+		size=17.5012 6.0000
 		description=Name of the currently focused item, along with spray ingredient progress if applicable.
 	}
 	close{
-		center=40.0000 31.0000
-		size=12.0000 6.0000
+		center=70.0000 27.5000
+		size=20.0000 6.0000
 		description=Button to close the inventory.
 	}
 	close_input{
-		center=34.0000 34.0000
+		center=60.0000 30.0000
 		size=4.0000 4.0000
 		description=Icon of the input bound to the back button.
 	}
@@ -33,16 +33,16 @@ hardcoded_items{
 custom_items{
 	background_vignette{
 		center=50.0000 50.0000
-		size=100.0000 100.0000
+		size=99.8425 99.9997
 		description=A vignette around the entire screen.
 		type=bitmap
-		color=0 0 64 64
+		color=0 0 64 100
 		draw_before_hardcoded=true
 		bitmap=gui/vignette
 	}
 	background_rectangle{
-		center=50.0000 48.0000
-		size=36.0000 44.0000
+		center=51.2500 47.9000
+		size=62.0000 53.7000
 		description=Rectangle background for the inventory.
 		type=filled_rectangle
 		color=24 64 60 200
@@ -50,8 +50,8 @@ custom_items{
 		rectangle_rounding=0.0500
 	}
 	background_frame{
-		center=50.0000 48.0000
-		size=36.0000 44.0000
+		center=51.2500 48.0000
+		size=62.1869 53.8242
 		description=Frame behind the inventory.
 		type=9_slice
 		color=255 255 255
@@ -59,12 +59,46 @@ custom_items{
 		bitmap=gui/frame_box
 	}
 	list_bg{
-		center=50.0000 50.0000
-		size=32.0000 28.0000
+		center=40.0000 52.5000
+		size=35.0000 40.0000
 		description=Rectangle background for the list.
 		type=filled_rectangle
 		color=24 64 60 200
 		draw_before_hardcoded=true
 		rectangle_rounding=0.0500
+	}
+	olimar{
+		center=70.0000 45.0000
+		size=10.0000 16.8738
+		description
+		type=bitmap
+		color=255 255 255
+		bitmap=leaders/olimar_icon
+	}
+	info_bg{
+		center=70.0000 67.5000
+		size=19.9998 10.0000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
+	}
+	text_inventory{
+		center=40.0000 28.9000
+		size=22.4805 7.5000
+		description
+		type=text
+		color=255 255 255
+		text=Inventory
+		font=area_name
+		text_alignment=1
+	}
+	character_bg{
+		center=70.0000 46.2500
+		size=20.0000 27.5000
+		description
+		type=9_slice
+		color=255 255 255
+		bitmap=gui/bubble_box
 	}
 }
