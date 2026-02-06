@@ -3,14 +3,16 @@
 This Pikifen pack aims to try change the look, and feel of the game to Pikmin as best as possible
 
 # Roadmap
- - Change all sound effects:         Not complete
- - Recreate all the official areas:  Not done
- - Replace all the music:            Not complete
- - Replace the button icons:         Not complete
- - Replace all Pikmin sounds:        Almost
- - Replace all enemy sounds:         Not complete
- - Change all area textures:         Not done
- - Polish help pages:                Not done
+| Feature                         | Status     |
+|---------------------------------|------------|
+|Change all sound effects         |Not complete
+|Recreate all the official areas  |Not done
+|Replace all the music            |Not complete
+|Replace the button icons         |Not complete
+|Replace all Pikmin sounds        |Almost
+|Replace all enemy sounds         |Not complete
+|Change all area textures         |Not done
+|Polish help pages:               | Not done
 
 *Disclaimer* this pack contains assets copyrighted by Nintenddo this pack is non-profit
 
